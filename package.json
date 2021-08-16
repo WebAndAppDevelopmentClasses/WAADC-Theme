@@ -1,0 +1,26 @@
+{
+    "name": "waadc-theme",
+    "displayName": "WAADC Theme",
+    "description": "WAADC Theme",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "WAADC Theme Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/WAADC Theme-Dark.json"
+            },
+            {
+                "label": "WAADC Theme Light",
+                "uiTheme": "vs",
+                "path": "./themes/WAADC Theme-Light.json"
+            }
+        ]
+    }
+}
